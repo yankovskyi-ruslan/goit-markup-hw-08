@@ -1,0 +1,82 @@
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    background-color: #f5f4fa;
+}
+
+.team-title {
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team-item {
+    flex-basis: calc((100% - 90px) / 4);
+
+    background-color: var(--logo-footer-color);
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.card-name {
+    padding: 30px 10px;
+}
+
+.team-caption {
+    display: block;
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-txt {
+    margin-bottom: 16px;
+
+    color: var(--text-color);
+
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.icons-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--icons-basic-color);
+
+    transition: background-color var(--animation), color var(--animation);
+
+    &:hover,
+    &:focus {
+    color: var(--logo-footer-color);
+    background-color: var(--akcent-color);
+    }
+}
+
+.social-icons {
+    fill: currentColor;
+}
+

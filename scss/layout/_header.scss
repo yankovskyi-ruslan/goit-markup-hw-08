@@ -1,0 +1,29 @@
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header__conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 93px;
+
+    color: var(--logo-header-color);
+
+    font-family:var(--additional-type);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+    &--first-logo {
+    color: var(--akcent-color);
+    font-family:var(--additional-type);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+}
+

@@ -1,0 +1,24 @@
+// utils
+@import'./utils/variables';
+@import'./utils/visualy-hidden';
+
+// base
+@import'./base/body';
+@import'./base/reset';
+
+// components
+@import'./components/conteiner';
+@import'./components/contacts';
+@import'./components/modal-form';
+@import'./components/filters-btn';
+
+// layout
+@import'./layout/header';
+@import'./layout/nav';
+@import'./layout/hero';
+@import'./layout/features';
+@import'./layout/specialization';
+@import'./layout/team';
+@import'./layout/clients';
+@import'./layout/footer';
+@import'./layout/portfolio';

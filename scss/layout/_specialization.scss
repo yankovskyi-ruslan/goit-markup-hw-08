@@ -1,0 +1,52 @@
+.specialization {
+    padding-top: 0;
+    padding-bottom: 94px;
+}
+
+.specialization__title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.specialization__title {
+    margin-bottom: 50px;
+}
+
+.specialization__list {
+    display: flex;
+}
+
+.specialization__item {
+    position: relative;
+    
+    width: 370px;
+    margin-right: 30px;
+
+    &:nth-child(3n) {
+    margin-right: 0;
+    }  
+}
+
+.specialization__name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 370px;
+    height: 70px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-footer-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
