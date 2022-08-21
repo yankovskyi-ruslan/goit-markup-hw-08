@@ -1,6 +1,14 @@
 .specialization {
-    padding-top: 0;
-    padding-bottom: 94px;
+    @media screen and (max-width:768px) {
+      display: none;  
+    }
+    
+ 
+    @media screen and (min-width: 1200px) {
+      padding-top: 0;
+      padding-bottom: 94px;
+    }
+   
 }
 
 .specialization__title,
