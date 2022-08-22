@@ -21,6 +21,11 @@
 
     transition: color var(--animation);
 
+    @media screen and (max-width: 768px) {
+        display: none;
+        
+    }
+
     &--mail:hover,
     &--tel:hover,
     &--mail:focus,
