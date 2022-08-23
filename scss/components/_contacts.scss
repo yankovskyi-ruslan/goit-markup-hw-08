@@ -1,22 +1,24 @@
 .contacts {
-        display: flex;
-        align-items: baseline;
-        flex-direction: column;
+        // display: flex;
+         align-items: baseline;
+         flex-direction: column;
         align-content: flex-end;
        
 
     @media screen and (max-width: 767px) {
             display: none;
         }
+
     @media screen and (min-width: 768px) {
         
         
     }    
           
      @media screen and (min-width: 1200px) {
-            //  display: flex;
+             display: flex;
+             flex-direction: row;
              margin-left: auto;
-             gap: 50px;
+             gap: 30px;
         } 
 }
 
@@ -26,7 +28,6 @@
     color: var(--icons-secondary-color);
 
    
-
     color: var(--text-color);
     font-weight: 500;
     font-size: 12px;
@@ -36,19 +37,35 @@
 
     transition: color var(--animation);
 
-    @media screen and (min-width: 768px) {
-       
-
-        }
-    
-
     @media screen and (min-width: 1200px) {
          font-size: 14px;
          line-height: 1.14;
          padding-top: 32px;
          padding-bottom: 32px;
     }
+    &--mail{
+        @media screen and (min-width: 768px) {
+          padding-top: 21px;
+          padding-bottom: 10px;
+        }
 
+        @media screen and (min-width: 1200px) {
+         padding-top: 32px;
+         padding-bottom: 32px;
+        }
+        
+    }
+    &--tel{
+        @media screen and (min-width: 768px) {
+                padding-bottom: 21px;
+            }
+
+        @media screen and (min-width: 1200px) {
+             padding-top: 32px;
+             padding-bottom: 32px;
+            }
+       
+    }
 
     &--mail:hover,
     &--tel:hover,
