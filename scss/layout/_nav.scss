@@ -5,6 +5,7 @@
     @media screen and (max-width: 767px) {
         display: none;
     }
+
 }
 
 .nav__list {
@@ -31,7 +32,7 @@
     transition: color var(--animation);
 
     &:hover,
-&:focus {
+    &:focus {
     color: var(--akcent-color);
 }
 

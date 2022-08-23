@@ -6,6 +6,7 @@
 
      width: 40px;
      height: 40px;
+     margin-left: auto;
 
      background-color: transparent;
      border: none;
@@ -15,9 +16,9 @@
       display: none;
      }
 
- &:hover, &:focus{
-    fill: var(--akcent-color);
- }
+     &:hover, &:focus{
+      fill: var(--akcent-color);
+      }
 }
 
 .menu-overlay{
@@ -25,7 +26,8 @@
      top: 0;
      left: 0;
      z-index: 100;
-     max-width: 480px;
+     width: 100%;
+     height: 100%;
 
      background-color: white;
      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
@@ -37,7 +39,6 @@
         transform: translateX(0);
      }   
 }
-
 
 .mob-menu{
      display: flex;
